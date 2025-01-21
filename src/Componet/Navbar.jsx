@@ -39,7 +39,7 @@ const Navbar = () => {
 
 
                 <div className="">
-                    <h1 className="navbar-brand font-fonde cursor-pointer  text-[#2B3F45]">Bhaiya Days</h1>
+                    <h1 className="navbar-brand font-fonde cursor-pointer  text-[#2B3F45]">Bahia Days</h1>
                 </div>
 
                 <ul className="navbar flex space-x-10">
