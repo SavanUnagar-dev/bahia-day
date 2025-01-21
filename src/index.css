@@ -1,0 +1,580 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'SofiaPro-Light';
+  src: url('https://cdn.shopify.com/s/files/1/0584/2508/2052/t/1/assets/Sofia_Pro_Light_Az.otf');
+}
+
+@font-face {
+  font-family: 'SofiaPro-Light-Italic';
+  src: url('https://cdn.shopify.com/s/files/1/0584/2508/2052/t/1/assets/Sofia_Pro_Light_Italic_Az.otf');
+}
+
+@font-face {
+  font-family: 'SofiaPro-SemiBold';
+  src: url('https://cdn.shopify.com/s/files/1/0584/2508/2052/t/1/assets/Sofia_Pro_Semi_Bold_Az.otf');
+}
+
+@font-face {
+  font-family: 'SofiaPro-SemiBold_Italic';
+  src: url('https://cdn.shopify.com/s/files/1/0584/2508/2052/t/1/assets/Sofia_Pro_Semi_Bold_Italic_Az.otf');
+}
+
+@font-face {
+  font-family: 'Sofia Pro med';
+  src: url('https://cdn.shopify.com/s/files/1/0584/2508/2052/t/1/assets/Sofia_Pro_Medium_Az.otf');
+}
+
+@font-face {
+  font-family: 'Sofia Pro';
+  src: url('https://cdn.shopify.com/s/files/1/0584/2508/2052/t/1/assets/Sofia_Pro_Regular_Az.otf');
+}
+
+@font-face {
+  font-family: 'Sofia Pro Italic';
+  src: url('https://cdn.shopify.com/s/files/1/0584/2508/2052/t/1/assets/Sofia_Pro_Regular_Italic_Az.otf');
+}
+
+@font-face {
+  font-family: 'fonde';
+  src: url('https://cdn.shopify.com/s/files/1/0584/2508/2052/t/1/assets/fonde-adobe.otf');
+}
+
+.nav-link{
+  font-family: 'Sofia Pro' !important;
+}
+.navbar-brand{
+  font-family: 'fonde' !important;
+  font-size: 4vw;
+}
+.main_logo_text{
+   font-family: 'fonde';
+  font-weight: 500;
+  font-size: 90px;
+}
+.main_logo_text1{
+  font-family: 'fonde';
+  font-weight: 500;
+  font-size: 85px;
+  margin-top: -35px;
+}
+.heder-bottom-p{
+  font-family: 'Sofia Pro' !important;
+  font-size: 15px;
+}
+.header-btn{
+  width: 115px;
+  height: 40px;
+  border: 1px solid #2B3F45;
+  transition: 0.6s all;
+  font-family: 'Sofia Pro';
+  margin-top: 35px;
+}
+.header-btn:hover{
+  background-color: #2B3F45;
+  color: white;
+}
+.main-div-header{
+  display: flex;
+}
+.header-img{
+  padding: 5px;
+  height: 530px;
+}
+
+/* ----------SECTION-2----------- */
+
+.sec-2{
+    width: 100%;
+    height: 100%;
+    background: #5A838F;
+    padding-top: 4rem;
+}
+/* .s2-main-div{
+   display:"flex";
+   align-items:"center";
+   justify-Content:"center";
+   flex-Direction:"column";
+} */
+.para_1{
+    font-family: 'Sofia Pro' !important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #F2EDE7;
+    width: 502px;  
+}
+.para_2{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #F2EDE7;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+    width: 502px;
+    font-family: 'Sofia Pro';
+}
+.feature-item, .title{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #F2EDE7;
+  font-family: 'Sofia Pro';
+}
+.feature-item, .info{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #F2EDE7;
+}
+.items-details{
+  margin-top: 3rem !important;
+  z-index: 3;
+}
+.card {
+  background: transparent !important;
+  border: none !important;
+  margin: 0 30px;
+  margin-top: 15px;
+}
+.card-body{
+  margin-top: 5px;
+}
+.s2-btn-div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 15px;
+}
+.item-btn{
+    font-family: 'Sofia Pro';
+    width: 100px;
+    height: 42px;
+    left: 670px;
+    top: 1740.88px;
+    border: 1px solid #F2EDE7;
+    color: white;
+    transition: 0.4s all;
+    font-weight: 600;
+    line-height: 12px;
+    margin-top: 30px;
+   
+}
+.item-btn:hover{
+   background-color: #D3E1E3;
+   color: #5A838F;
+}
+
+/* ----------SECTION-3----------- */
+.section3{
+  width: 100%;
+  margin: 0 !important;
+  font-family: 'Sofia Pro';
+  min-height: 728px;
+}
+.sec2-img{
+  width: 500px;
+  height: 80%;
+  margin: 40px;
+}
+.s2-right-img{
+   margin-top: 150px;
+   margin: 0 auto;
+   margin-bottom: 30px;
+}
+.sec2_three_right {
+  background: #E2C9B6;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sec2_three_right .main_text{
+  font-family: 'Sofia Pro';
+  font-weight: 600;
+  font-size: 5vw;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #2B3F45;
+  padding-bottom: 10px;
+}
+.sec2_three_right .info_text{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #2B3F45;
+}
+.sec2_three_right .para_one{
+  width: 50%;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #2B3F45;
+}
+.sec2_three_right .s2-btn{
+    border: 1px solid #2B3F45 !important;
+    margin-top: 4rem !important;
+    margin-bottom: 1rem !important;
+    margin-top: 2rem !important;
+    transition: 0.4s all;
+    padding: 5px;
+}
+.sec2_three_right .s2-btn:hover{
+    background-color: #403731;
+    border-color: #7BA2A8;
+    color: #efd5c1;
+}
+/* Minimal extra styling for specific cases */
+.sec2_three_right .main_text {
+  font-family: 'Sofia Pro', sans-serif; /* Ensure custom font applies */
+}
+
+/* ----------SECTION-4----------- */
+
+.section4{
+    height: 100%;
+    background: #D3E1E3;
+    font-family: 'Sofia Pro';
+    padding-bottom: 20px;
+}
+.s4-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #2B3F45;
+}
+.s4-body{
+  display: flex;
+   flex-wrap: wrap;
+   padding-top: 10px;
+}
+.s4-box{
+  flex-grow: 1;
+  flex-basis: 200;
+  margin: 20px 20px;
+}
+.s4-circle{
+  width: 96px;
+  height: 96px;
+  background-color: gray;
+  border-radius: 50%;
+}
+.s4-age{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #2B3F45 ;
+    margin-left: 2vw;
+    padding-top: 2px;
+  }
+
+
+  .s4-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 238px;
+    background: #5A838F;
+    font-family: 'Sofia Pro';
+  }
+  .s4-para{
+
+  }
+  .s4-para-1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #F2EDE7;
+    margin: 50px;
+  }
+  /* ----------SECTION-5----------- */
+
+.section5{
+  width: 100%;
+  height: 305px;
+  background-image: url(https://bahiyadays.netlify.app/images/about_images/Bahia%20Days%20Website%20Pattern%201.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 35px;
+  padding-bottom: 90px;
+}
+.s5-content{
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #CFAE93;
+  padding: 30px;
+}
+.head-text h3{
+  font-family: 'Sofia Pro';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: #F2EDE7;
+}
+.s5-form{
+  width: 430px;
+  border: 1px solid white;
+  background: #CFAE93;
+  padding: 0 10px;
+  margin-top: 20px;
+}
+#s5-input-email{
+  background-color: #CFAE93;
+  width: 180px;
+  font-size: 20px;
+  padding: 2px;
+}
+#s5-input-email:focus-visible{
+   outline: none;
+}
+#s5-input-email:focus{
+  color: white;
+}
+.s5-btn{
+    width: 120px;
+    height: 37px;
+    background-color: white;
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #CFAE93;
+    border: none;
+    transition: 0.3s all;
+    margin-left: 105px;
+}
+.s5-btn:hover{
+  background-color: #5A838F;
+  color: white;
+}
+
+@media (max-width: 767px){
+#s5-input-email{
+  margin: 0%;
+  width: 13px;
+}
+.s5-form{
+  width: auto;
+}
+.s5-btn{
+  
+}
+}
+/* ----------SECTION-6----------- */
+
+.section6{
+  min-height: 549px;
+  background: #D3E1E3;
+  padding: 6rem 0;
+}
+.s6-img-mobile{
+  display: none;
+}
+.s6-title{
+  font-weight: 400;
+  font-size: 69px;
+  line-height: 76px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #2B3F45;
+  font-family: 'fonde';
+}
+/* .s6-img1-t{
+  position: absolute;
+  margin-left: 717px;
+  margin-top: -560px;
+}
+.s6-img2-b{
+  margin-left: 37px;
+    margin-top: 115px;
+} */
+.s6-btn{
+  font-family: 'Sofia Pro';
+  font-family: 'Sofia Pro';
+    width: 100px;
+    height: 42px;
+    border: 1px solid black;
+    color: rgb(85, 82, 82);
+    transition: 0.4s all;
+    font-weight: 600;
+    margin-left: 45vw;
+}
+
+
+/* ----------FOOTER--------- */
+
+footer{
+  width: 100%;
+  height: 280px;
+  background-color: #5A838F;
+}
+.footer-logo-div{
+  position: relative;
+}
+.footer-logo-img{
+  max-width: 190px;
+}
+.footer-logo-img{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.footer-navlink-div{
+  padding-top: 50px;
+}
+.footer-navlink-div ul li a{
+    font-family: 'Sofia Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    color: rgb(224, 224, 224);
+    text-transform: capitalize;
+    transition: 0.3s all;
+    font-size: 13px;
+}
+.footer-navlink-div ul li a:hover{
+ 
+  color: rgb(224, 202, 161);
+}
+
+.copywrite_section p {
+  font-family: 'Sofia Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #F2EDE7;
+  margin-top: 10px;
+}
+
+
+@media (min-width: 300px) and (max-width: 1000px) {
+
+  /* ----------Navbar-------- */
+  .navbar{
+    display: none;
+  }
+  .navbar-brand{
+    font-size: 35px;
+    margin-top: 10px;
+  }
+  .shop-by{
+    display: none;
+  }
+  .nav-title{
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+  }
+  .main-div-header{
+    display: block;
+  }
+  .toggle-btn {
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+
+  /* -----------Section-1--------- */
+  .s1-sec-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .s1-imgs {
+    display: flex;align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .rps-img1{
+    display: none;
+  }
+  .rps-img2{ 
+    width: 290px;
+    height: 270px;
+  }
+  .s1-rps-logo{
+    font-size: 15vw;
+  }
+  .main_logo_text1{
+    margin-top: px;
+  }
+  
+  /* -----------Section-3--------- */
+  .sec2-img{
+    display: none;
+  }
+  .sec2_three_right .main_text{
+    font-size: 8vw;
+  }
+  .sec2_three_right .para_one{
+    font-size: 14px;
+  }
+
+  /* -----------Section-6--------- */
+  .s6-title{
+    font-size: 35px;
+  }
+  .s6-img-mobile{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    margin-left: 20px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .para_1{
+   font-size: 19px;
+   width: 100%;
+  }
+  .para_2{
+    font-size: 13px;
+    width: 100%;
+  }
+  .item-btn{
+    margin-bottom: 15px;
+  }
+}
+
+
+@media only screen and (min-width:1001px) and (max-width:1023px){
+  .toggle-btn{
+    display: none;
+  }
+} 
